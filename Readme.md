@@ -49,7 +49,7 @@ pip install git+https://github.com/jayeshthk/SpecDec.git
 ### Basic Example
 
 ```python
-from speculative_decoding.main import SpeculativeDecoder
+from specdec.main import SpeculativeDecoder
 
 decoder = SpeculativeDecoder(
     approx_model_name="meta-llama/Llama-2-7b-hf",
@@ -72,7 +72,7 @@ python scripts/run_speculative.py --input "Explain black holes." --benchmark
 To compare performance, run:
 
 ```bash
-python scripts/run_speculative.py --input "Tell me a joke." --benchmark
+python scripts/run_specdec.py --input "Tell me a joke." --benchmark
 ```
 
 ## References
