@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
-from sampler import generate_speculative_tokens, validate_tokens
-from models import load_model, load_tokenizer
+from .sampler import generate_speculative_tokens, validate_tokens
+from .models import load_model, load_tokenizer
 
 class SpeculativeDecoder:
     def __init__(self, approx_model_name, target_model_name, gamma=4, max_tokens=20, device='cuda'):
