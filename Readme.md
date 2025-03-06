@@ -1,4 +1,4 @@
-# SpecDec- A Speculative Decoding Library
+# SpS-SpecDec- A Speculative Decoding Library
 
 ## Overview
 
@@ -41,7 +41,7 @@ speculative-decoding-lib/
 ## Installation
 
 ```bash
-pip install git+https://github.com/jayeshthk/SpecDec.git
+pip install git+https://github.com/jayeshthk/SpS-SpecDec.git
 ```
 
 ## Usage
