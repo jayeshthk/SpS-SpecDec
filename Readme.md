@@ -62,6 +62,10 @@ output = decoder.speculative_sample(input_text)
 print("Generated Text:", output)
 ```
 
+## output (Colab):
+
+![example image](./images/colab-ss.png "colab output")
+
 ### CLI Usage
 
 ```bash
