@@ -41,7 +41,8 @@ speculative-decoding-lib/
 ## Installation
 
 ```bash
-pip install git+https://github.com/jayeshthk/SpS-SpecDec.git
+git clone https://github.com/jayeshthk/SpS-SpecDec.git
+cd SpS-SpecDec
 ```
 
 ## Usage
